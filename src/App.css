@@ -1,0 +1,30 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: background 5s ease-in-out 2s infinite ;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(0, 255, 255, 0.2);
+  padding: 50px;
+  border-radius: 50px;
+}
+
+@keyframes background {
+  0%{
+    background-color:#fff3e0;
+  }
+  50%{
+    background-color: rgb(255, 195, 145);
+  }
+  100%{
+    background-color: #fff3e0;
+  }
+}
